@@ -6,7 +6,7 @@
 - Group Collaboration: Create or join groups to collaborate with colleagues, friends, or family members on shared tasks and projects.
 - Dashboard: Get a comprehensive overview of your tasks, upcoming deadlines, and group activities on your personalized dashboard.
 - User Profile: Create user profiles to create your own groups and tasks as well as join others user hosted groups to complete tasks as a team.
-- 
+
 # Technologies Used:
 - Frontend: React.js, HTML, CSS
 - Backend: Node.js, Express.js
