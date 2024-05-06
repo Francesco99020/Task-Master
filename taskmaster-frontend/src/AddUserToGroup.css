@@ -1,0 +1,15 @@
+.add-user-to-group-btn{
+    background-color: #FF652F;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-user-to-group-btn:hover{
+    background-color: #ff8153;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}

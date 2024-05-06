@@ -1,0 +1,72 @@
+.task-inspector {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    overflow: auto;
+}
+
+.is-complete-btn{
+  background-color: #FF652F;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.is-complete-btn:hover{
+  background-color: #ff8153;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.comments {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.comment {
+  max-width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  clear: both;
+}
+
+.comment.left {
+  background-color: #14A76C;
+  float: left;
+  text-align: left;
+}
+
+.comment.right {
+  background-color: #FF652F;
+  color: white;
+  float: right;
+  text-align: right;
+}
+
+.comment-input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.comment-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.send-button {
+  flex-shrink: 0;
+}
+
+.comment-bubble {
+  max-width: 100%;
+  word-wrap: break-word;
+  text-align: right;
+}

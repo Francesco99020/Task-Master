@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+
+.group-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.group-details {
+    text-align: right;
+    width: fit-content;
+    color: white;
+}
+
+.group-details h2 {
+    color: #FFE400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.group-name {
+    color: #FFE400;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.group-description{
+    color: white;
+}
+
+.group-name h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.group-name p {
+    margin: 0;
+    text-align: center;
+}
+
+.host-dashboard {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.tasks-section {
+    flex: 0 0 70%; 
+}
+
+.users-section {
+    flex: 0 0 30%; 
+    margin-bottom: 2rem;
+}
+
+.task-inspector {
+    width: 95vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.create-new-task-form{
+    width: 50%;
+}
+
+.card {
+    background-color: #ff8153;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.create-task-form-btn, .create-task-cancel-btn, .create-task-btn, .remove-user-btn, .add-user-btn, .add-remove-cancel-btn, .assign-user-btn{
+    background-color: #FF652F;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.create-task-form-btn:hover, .create-task-cancel-btn:hover, .create-task-btn:hover, .remove-user-btn:hover, .add-user-btn:hover, .add-remove-cancel-btn:hover, .assign-user-btn:hover{
+    background-color: #ff8153;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.task-card {
+    background-color: #ff8153;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.task-card:last-child {
+    margin-bottom: 0;
+}
+
+h2, h3, h1{
+    color: #FFE400;
+}
+
+p{
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.back-arrow{
+    background-color: #FF652F;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+.back-arrow:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #ff8153;
+    color: #ffffff;
+}
+
+.back-arrow button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+input{
+    color: black;
+    background-color: #14A76C;
+}

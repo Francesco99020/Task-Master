@@ -1,0 +1,62 @@
+
+.register-page {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-form {
+    background-color: #747474;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form h2 {
+    color: #FFE400;
+    margin-bottom: 20px;
+  }
+  
+  .register-form input {
+    width: 96%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF652F;
+    color: #FFFFFF;
+  }
+
+  .register-form input::placeholder {
+    color: #FFFFFF;
+  }
+  
+  .register-form button {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #14A76C; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-form button:hover {
+    background-color: #5BC94D; 
+  }
+  
+  .register-form p {
+    color: #FFFFFF; 
+  }
+  
+  .register-form a {
+    color: #FFE400;
+    text-decoration: none;
+  }
+  
+  .register-form a:hover {
+    text-decoration: underline;
+  }  

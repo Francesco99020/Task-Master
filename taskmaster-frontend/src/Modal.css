@@ -1,0 +1,48 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal-main {
+    position: fixed;
+    background-color: #272727;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  textarea{
+    background-color: #14A76C;
+  }
+
+  .close-btn, .submit-btn{
+    background-color: #FF652F;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+
+  .close-btn:hover, .submit-btn:hover{
+    background-color: #ff8153;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
